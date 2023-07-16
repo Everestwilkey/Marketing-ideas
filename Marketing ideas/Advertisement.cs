@@ -42,7 +42,7 @@ namespace Marketing_ideas
             {
                 Console.Write("Enter Keyword here: ");
                 string choice = Console.ReadLine();
-                items.Add(choice);
+                items.Add(choice.Trim());
                 conter++;
                 
             }
