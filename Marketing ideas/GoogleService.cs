@@ -60,7 +60,7 @@ namespace Marketing_ideas
         public void PromtGoogleDiscriptions()
         {
             List<string> items = new List<string>();
-            Console.WriteLine("Write 3 Headlines that are no longer than 90 chariters long");
+            Console.WriteLine("Write 3 Headlines that are no longer than 90 characters each");
             int times = 3;
             int counter = 0;
             while (times != counter)
@@ -89,7 +89,7 @@ namespace Marketing_ideas
             Console.Write("Write a short discription about your buisness: ");
             this.SetDescription(Console.ReadLine());
             this.PromtKeyWords();
-            Console.Write("What Service do you offer *pulmmer* : ");
+            Console.Write("What Service do you offer *plummer* : ");
             this.SetService(Console.ReadLine());
             Console.Write("Where are you located: ");
             this.SetLocation(Console.ReadLine());

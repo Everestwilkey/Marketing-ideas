@@ -15,8 +15,16 @@ namespace Marketing_ideas
         {
             List<int> HeadLine = new List<int>();
             int count = 0;
-            KeyWords.Add(location); 
-            KeyWords.Add(service);
+            if (KeyWords.Contains(location))
+            {
+                
+            }
+            
+            else
+            {
+                KeyWords.Add(location);
+                KeyWords.Add(service);
+            }
             int scorecount = 0;
             foreach (string line in Headers)
             {
